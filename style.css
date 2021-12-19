@@ -1,0 +1,36 @@
+body
+{
+background-image: linear-gradient(red, orange, yellow, green, blue, purple);
+
+
+}
+
+
+
+#user_name
+{
+width: 400px;
+}
+
+.sp
+{
+margin: 10px;
+}
+img{
+    width: 800px;
+    height: 690px;
+}
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img #small{
+      width: 10%;
+  }
